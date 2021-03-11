@@ -1,0 +1,47 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+@import "global";
+
+
+.header {
+
+    background-color: #e8ebf1;
+
+    &__inner {
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        color: #2aacc8;
+        font-size: 50px;
+
+        font-family: 'Lato',
+            sans-serif;
+
+        span {
+            color: #000;
+            font-weight: 900;
+        }
+    }
+
+    &__menu {
+
+        li {
+            display: inline-block;
+            padding: 0 20px;
+            font-weight: 700;
+        }
+    }
+}
+
+
+
+
+
+
+
+@import "media";
